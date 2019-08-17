@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RentApps</string>
+    <string name="username">UserName</string>
+    <string name="email">Email_id</string>
+    <string name="password">Password</string>
+    <string name="register">register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_new_account">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="success"></string>
+    <string name="flat_details">Flat Details</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="rents">Rent</string>
+    <string name="tenant">Tenant</string>
+    <string name="owner">owner</string>
+    <string name="full_address">Full Address</string>
+    <string name="rent">Rent</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="post">Post</string>
+    <string name="flat_location">flat_loction</string>
+</resources>

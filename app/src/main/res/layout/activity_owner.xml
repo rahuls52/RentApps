@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/large">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="owner_name"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/full_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_margin="10dp"
+        android:hint="full_address"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/flat_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/full_address"
+        android:layout_margin="10dp"
+        android:hint="flat_location"
+        android:inputType="text"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/amenities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flat_location"
+        android:hint="amenities"
+        android:layout_margin="10dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/facilitate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="facilitate"
+        android:layout_margin="10dp"
+        android:layout_below="@id/amenities"
+        />
+
+    <EditText
+        android:id="@id/rents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/facilitate"
+        android:layout_margin="10dp"
+        android:hint="rent"
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/mobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rents"
+        android:layout_margin="10dp"
+        android:hint="@string/mobile_number"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_below="@id/mobileNo"
+        android:text="@string/post"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
